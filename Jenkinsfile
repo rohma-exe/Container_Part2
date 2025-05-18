@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git 'https://github.com/rohma-exe/Container_Part2.git'
+        git branch: 'main', url: 'https://github.com/rohma-exe/Container_Part2.git'
       }
     }
 
